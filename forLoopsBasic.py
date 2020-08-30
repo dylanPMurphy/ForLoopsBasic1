@@ -7,6 +7,13 @@ for i in range(0, 151):
 
 
 #   Multiples of Five - Print all the multiples of 5 from 5 to 1,000
+
+
+for i in range(5, 1001):
+    if i % 5 == 0:
+        print(i)
+
+
 #    Counting, the Dojo Way - Print integers 1 to 100. If divisible by 5, print "Coding" instead. If divisible by 10, print "Coding Dojo".
 #    Whoa. That Sucker's Huge - Add odd integers from 0 to 500,000, and print the final sum.
 #    Countdown by Fours - Print positive numbers starting at 2018, counting down by fours.
