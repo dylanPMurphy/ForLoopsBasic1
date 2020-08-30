@@ -30,7 +30,7 @@ for i in range(0, 151):
 #    Whoa. That Sucker's Huge - Add odd integers from 0 to 500,000, and print the final sum.
 sum = 0
 for i in range(0, 500000):
-    if i %5 ==0:
+    if i %2 ==1:
         sum+=i
 
 print(sum)
